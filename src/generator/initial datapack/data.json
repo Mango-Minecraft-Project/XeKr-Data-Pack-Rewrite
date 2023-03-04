@@ -1,13 +1,17 @@
 {
   "const": {
-    "name": "template datapack",
-    "namespace": "template"
+    "lazy_name": "XKLazy",
+    "lazy_namespace": "xklazy",
+    "back_name": "XKBack",
+    "back_namespace": "xkback",
+    "smallmap_name": "XKSmallMap",
+    "smallmap_namespace": "xksmallmap"
   },
   "content": {
     "pack.mcmeta": {
       "pack": {
         "pack_format": 12,
-        "description": ""
+        "description": " crafting recipe data pack"
       },
       "filter": {}
     },
@@ -21,11 +25,16 @@
     {
       "datapack": [
         {
-          "%name%": [
+          "%lazy_name%": [
             {
               "data": [
                 {
-                  "c": [
+                  "%lazy_namespace%": [
+                    {
+                      "recipes": [
+                        "recipe.json"
+                      ]
+                    },
                     {
                       "tags": [
                         {
@@ -35,8 +44,37 @@
                         }
                       ]
                     }
-                  ],
-                  "%namespace%": [
+                  ]
+                }
+              ]
+            },
+            "pack.mcmeta"
+          ]
+        },
+        {
+          "%back_name%": [
+            {
+              "data": [
+                {
+                  "%back_namespace%": [
+                    {
+                      "recipes": [
+                        "recipe.json"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "pack.mcmeta"
+          ]
+        },
+        {
+          "%smallmap_name%": [
+            {
+              "data": [
+                {
+                  "%smallmap_namespace%": [
                     {
                       "recipes": [
                         "recipe.json"
