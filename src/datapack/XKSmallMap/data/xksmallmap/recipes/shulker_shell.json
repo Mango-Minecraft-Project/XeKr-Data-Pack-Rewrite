@@ -1,0 +1,23 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "121",
+    "131",
+    "121"
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:popped_chorus_fruit"
+    },
+    "2": {
+      "item": "minecraft:shulker_shell"
+    },
+    "3": {
+      "item": "minecraft:chorus_flower"
+    }
+  },
+  "result": {
+    "item": "minecraft:shulker_shell",
+    "count": 3
+  }
+}
