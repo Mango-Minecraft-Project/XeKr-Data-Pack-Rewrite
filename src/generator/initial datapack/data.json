@@ -1,0 +1,55 @@
+{
+  "const": {
+    "name": "template datapack",
+    "namespace": "template"
+  },
+  "content": {
+    "pack.mcmeta": {
+      "pack": {
+        "pack_format": 12,
+        "description": ""
+      },
+      "filter": {}
+    },
+    "tag.json": {
+      "replace": false,
+      "values": []
+    },
+    "recipe.json": {}
+  },
+  "tree": [
+    {
+      "datapack": [
+        {
+          "%name%": [
+            {
+              "data": [
+                {
+                  "c": [
+                    {
+                      "tags": [
+                        {
+                          "items": [
+                            "tag.json"
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "%namespace%": [
+                    {
+                      "recipes": [
+                        "recipe.json"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "pack.mcmeta"
+          ]
+        }
+      ]
+    }
+  ]
+}

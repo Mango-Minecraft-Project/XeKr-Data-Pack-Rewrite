@@ -1,0 +1,18 @@
+{
+  "editor.tabSize": 2,
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnSaveMode": "modificationsIfAvailable",
+  "[python]": {
+    "editor.tabSize": 4
+  },
+  "[json]": {
+    "editor.formatOnSave": false
+  },
+  "cSpell.words": [
+    "DATAPACK",
+    "mcmeta",
+    "Modrinth"
+  ]
+}
