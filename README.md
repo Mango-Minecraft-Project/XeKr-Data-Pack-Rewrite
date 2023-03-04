@@ -1,1 +1,1 @@
-# Data-Pack-Template-v2
+# XeKr-Data-Pack-Rewrite
