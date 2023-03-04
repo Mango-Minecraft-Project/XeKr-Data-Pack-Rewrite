@@ -1,0 +1,18 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "121",
+    "111"
+  ],
+  "key": {
+    "1": {
+      "tag": "xkback:ingots/iron"
+    },
+    "2": {
+      "item": "minecraft:furnace"
+    }
+  },
+  "result": {
+    "item": "minecraft:chest_minecart"
+  }
+}

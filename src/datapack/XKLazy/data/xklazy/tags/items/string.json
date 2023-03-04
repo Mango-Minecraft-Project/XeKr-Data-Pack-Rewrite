@@ -1,0 +1,13 @@
+{
+  "values": [
+    "minecraft:string",
+    {
+      "id": "#forge:string",
+      "required": false
+    },
+    {
+      "id": "#c:string",
+      "required": false
+    }
+  ]
+}

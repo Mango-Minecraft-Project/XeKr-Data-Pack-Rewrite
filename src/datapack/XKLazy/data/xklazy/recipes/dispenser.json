@@ -1,0 +1,22 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "12 ",
+    "132",
+    "12 "
+  ],
+  "key": {
+    "1": {
+      "tag": "xkback:string"
+    },
+    "2": {
+      "tag": "xkback:sticks/wooden"
+    },
+    "3": {
+      "item": "minecraft:dropper"
+    }
+  },
+  "result": {
+    "item": "minecraft:dispenser"
+  }
+}

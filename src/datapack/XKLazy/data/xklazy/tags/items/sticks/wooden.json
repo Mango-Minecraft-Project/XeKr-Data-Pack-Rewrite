@@ -1,0 +1,17 @@
+{
+  "values": [
+    "minecraft:stick",
+    {
+      "id": "#forge:sticks/wooden",
+      "required": false
+    },
+    {
+      "id": "#forge:rods/wooden",
+      "required": false
+    },
+    {
+      "id": "#c:wooden_rods",
+      "required": false
+    }
+  ]
+}
