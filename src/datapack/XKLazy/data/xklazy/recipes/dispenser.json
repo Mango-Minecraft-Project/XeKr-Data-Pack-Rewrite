@@ -7,10 +7,10 @@
   ],
   "key": {
     "1": {
-      "tag": "xkback:string"
+      "tag": "xklazy:string"
     },
     "2": {
-      "tag": "xkback:sticks/wooden"
+      "tag": "xklazy:sticks/wooden"
     },
     "3": {
       "item": "minecraft:dropper"
